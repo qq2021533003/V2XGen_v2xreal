@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Build artifacts
+build/
+dist/
+
+# Environments and secrets
+.env
+.env.*
+venv/
+.venv/
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# Runtime outputs
+out/
+outputs/
+runs/
+
+# Datasets
+v2x-real_dataset_64/
+rq1_frd/
+
+# Trained models and large files
+trained_model/
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+
+# Generated captures
+DepthCamera_*.json
+DepthCapture_*.png
+
+# SalsaNext pretrained models
+third/SalsaNext/salsanext/logs/pretrained/
+third/SalsaNext/train/tasks/semantic/pretrained/
+
